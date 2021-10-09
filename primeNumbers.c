@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 
 int main()
@@ -16,14 +15,14 @@ int main()
             if (i % j == 0)
             {
                 situation = 0;
-                printf("%d isn't a premium number.\n",i);
+                printf("%d isn't a prime number.\n",i);
                 break;
             }
             
         }
         if (situation == 1)
         {
-            printf("%d is a premium number.\n",i);
+            printf("%d is a prime number.\n",i);
         }
         
     }
