@@ -10,7 +10,7 @@ int n[5]; // n is an array of five integers
     {   
     n[i] = 0; // set element at location i to 0
     }
-printf("%s%13s\n", "Element", "Value");
+printf("%s%13s%10s\n", "Element", "Value","as");
     // output contents of array n in tabular format
     for (size_t i = 0; i < 5; ++i) 
     { 
