@@ -12,7 +12,7 @@ int main()
     {
         printf("%7lu%13d        ", i, array[i]);
 
-        for (size_t j = 0; j <= array[i]; j++)
+        for (size_t j = 0; j < array[i]; j++)
         {
             printf("%s", "*");
         }
